@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo da página */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #0505eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Card central */
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Nome */
+.card h1 {
+  margin-bottom: 10px;
+  color: #070707;
+}
+
+/* Descrição */
+.card p {
+  margin-bottom: 20px;
+  color: #070000;
+}
+
+
+/* Botão */
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #055817;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.card button:hover {
+  background: #f50303;
+}
+
+/*foto perfil*/
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #000501;
+  object-fit: cover;
+  margin: 15px 0;
+  transition: 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  border: 3px solid #f50303;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
