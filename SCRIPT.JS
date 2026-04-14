@@ -3,6 +3,7 @@ alert("funcionando");
 const botao = document.getElementById("botao");
 
 botao.addEventListener("click", () => {
-    window.open("https://github.com/GabrielCasemirski", "_blank");
-});
+    const link = "https://github.com/GabrielCasemirski";
+
+    window.open(link, "_blank");
 });
