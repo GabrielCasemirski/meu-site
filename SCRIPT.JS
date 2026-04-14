@@ -1,9 +1,9 @@
-alert("funcionando");
+document.addEventListener("DOMContentLoaded", () => {
+    alert("funcionando");
 
-const botao = document.getElementById("botao");
+    const botao = document.getElementById("botao");
 
-botao.addEventListener("click", () => {
-    const link = "https://github.com/GabrielCasemirski";
-
-    window.open(link, "_blank");
+    botao.addEventListener("click", () => {
+        window.location.href = "https://github.com/GabrielCasemirski";
+    });
 });
